@@ -1,4 +1,4 @@
-# FTScaleSliderView
+# FKScaleSliderView
 
 带刻度的Slider
 
