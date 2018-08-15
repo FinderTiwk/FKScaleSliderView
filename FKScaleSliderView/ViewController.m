@@ -1,20 +1,20 @@
 //
 //  ViewController.m
-//  FTScaleSliderView
+//  FKScaleSliderView
 //
 //  Created by FinderTiwk on 14/12/2017.
 //  Copyright © 2017 FinderTiwk. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "FTScaleSliderView.h"
+#import "FKScaleSliderView.h"
 
 @interface ViewController ()
 //xib初始化
-@property (weak, nonatomic) IBOutlet FTScaleSliderView *xibXcaleSlider;
+@property (weak, nonatomic) IBOutlet FKScaleSliderView *xibXcaleSlider;
 
 //code初始化
-@property (strong, nonatomic) FTScaleSliderView *codeScaleSlider;
+@property (strong, nonatomic) FKScaleSliderView *codeScaleSlider;
 @end
 
 @implementation ViewController
@@ -22,21 +22,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.codeScaleSlider = [[FTScaleSliderView alloc] initWithFrame:CGRectMake(30, 200, 300, 70)];
-    self.codeScaleSlider.titlePosition = FTScaleSliderTitlePosition_Bottom;
-    self.codeScaleSlider.style = FTScaleSliderStyle_Full;
+    self.codeScaleSlider = [[FKScaleSliderView alloc] initWithFrame:CGRectMake(30, 200, 300, 70)];
+    self.codeScaleSlider.titlePosition = FKScaleSliderTitlePositionBottom;
+    self.codeScaleSlider.style = FKScaleSliderStyleFull;
     self.codeScaleSlider.thumbImage = [UIImage imageNamed:@"font_slider_thumb"];
     [self setupScaleSlider:self.codeScaleSlider];
     [self.view addSubview:self.codeScaleSlider];
     
     
     self.xibXcaleSlider.scaleBarColor = [UIColor greenColor];
-    self.xibXcaleSlider.titlePosition = FTScaleSliderTitlePosition_Top;
-    self.xibXcaleSlider.style = FTScaleSliderStyle_Top;
+    self.xibXcaleSlider.titlePosition = FKScaleSliderTitlePositionTop;
+    self.xibXcaleSlider.style = FKScaleSliderStyleTop;
     [self setupScaleSlider:self.xibXcaleSlider];
 }
 
-- (void)setupScaleSlider:(FTScaleSliderView *)sliderView{
+- (void)setupScaleSlider:(FKScaleSliderView *)sliderView{
     
     
     sliderView.enableTouch = YES;

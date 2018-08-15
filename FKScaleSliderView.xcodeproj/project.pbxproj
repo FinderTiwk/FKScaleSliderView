@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0020934A1FE269A2004AD3C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002093491FE269A2004AD3C0 /* AppDelegate.m */; };
-		0020934D1FE269A2004AD3C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020934C1FE269A2004AD3C0 /* ViewController.m */; };
-		002093501FE269A2004AD3C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0020934E1FE269A2004AD3C0 /* Main.storyboard */; };
-		002093521FE269A2004AD3C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002093511FE269A2004AD3C0 /* Assets.xcassets */; };
-		002093551FE269A2004AD3C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002093531FE269A2004AD3C0 /* LaunchScreen.storyboard */; };
-		002093581FE269A2004AD3C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002093571FE269A2004AD3C0 /* main.m */; };
-		002093611FE26A76004AD3C0 /* FTScaleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002093601FE26A76004AD3C0 /* FTScaleSliderView.m */; };
+		00B4F2B12123BE7B00A70C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2A42123BE7B00A70C0B /* Assets.xcassets */; };
+		00B4F2B22123BE7B00A70C0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2A52123BE7B00A70C0B /* ViewController.m */; };
+		00B4F2B32123BE7B00A70C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2A62123BE7B00A70C0B /* LaunchScreen.storyboard */; };
+		00B4F2B42123BE7B00A70C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2A82123BE7B00A70C0B /* Main.storyboard */; };
+		00B4F2B52123BE7B00A70C0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2AA2123BE7B00A70C0B /* main.m */; };
+		00B4F2B62123BE7B00A70C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2AB2123BE7B00A70C0B /* AppDelegate.m */; };
+		00B4F2B82123BE7B00A70C0B /* FKScaleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2AF2123BE7B00A70C0B /* FKScaleSliderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		002093451FE269A2004AD3C0 /* FTScaleSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTScaleSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		002093481FE269A2004AD3C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		002093491FE269A2004AD3C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0020934B1FE269A2004AD3C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0020934C1FE269A2004AD3C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0020934F1FE269A2004AD3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		002093511FE269A2004AD3C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		002093541FE269A2004AD3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		002093561FE269A2004AD3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		002093571FE269A2004AD3C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0020935F1FE26A76004AD3C0 /* FTScaleSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTScaleSliderView.h; sourceTree = "<group>"; };
-		002093601FE26A76004AD3C0 /* FTScaleSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTScaleSliderView.m; sourceTree = "<group>"; };
+		002093451FE269A2004AD3C0 /* FKScaleSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKScaleSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B4F2A32123BE7B00A70C0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00B4F2A42123BE7B00A70C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B4F2A52123BE7B00A70C0B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00B4F2A72123BE7B00A70C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00B4F2A92123BE7B00A70C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00B4F2AA2123BE7B00A70C0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B4F2AB2123BE7B00A70C0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00B4F2AC2123BE7B00A70C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B4F2AD2123BE7B00A70C0B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00B4F2AF2123BE7B00A70C0B /* FKScaleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKScaleSliderView.m; sourceTree = "<group>"; };
+		00B4F2B02123BE7B00A70C0B /* FKScaleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKScaleSliderView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		0020933C1FE269A2004AD3C0 = {
 			isa = PBXGroup;
 			children = (
-				002093471FE269A2004AD3C0 /* FTScaleSliderView */,
+				00B4F2A22123BE7B00A70C0B /* FKScaleSliderView */,
 				002093461FE269A2004AD3C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,33 +53,33 @@
 		002093461FE269A2004AD3C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				002093451FE269A2004AD3C0 /* FTScaleSliderView.app */,
+				002093451FE269A2004AD3C0 /* FKScaleSliderView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		002093471FE269A2004AD3C0 /* FTScaleSliderView */ = {
+		00B4F2A22123BE7B00A70C0B /* FKScaleSliderView */ = {
 			isa = PBXGroup;
 			children = (
-				0020935E1FE26A52004AD3C0 /* Src */,
-				002093481FE269A2004AD3C0 /* AppDelegate.h */,
-				002093491FE269A2004AD3C0 /* AppDelegate.m */,
-				0020934B1FE269A2004AD3C0 /* ViewController.h */,
-				0020934C1FE269A2004AD3C0 /* ViewController.m */,
-				0020934E1FE269A2004AD3C0 /* Main.storyboard */,
-				002093511FE269A2004AD3C0 /* Assets.xcassets */,
-				002093531FE269A2004AD3C0 /* LaunchScreen.storyboard */,
-				002093561FE269A2004AD3C0 /* Info.plist */,
-				002093571FE269A2004AD3C0 /* main.m */,
+				00B4F2A32123BE7B00A70C0B /* AppDelegate.h */,
+				00B4F2AB2123BE7B00A70C0B /* AppDelegate.m */,
+				00B4F2A42123BE7B00A70C0B /* Assets.xcassets */,
+				00B4F2A62123BE7B00A70C0B /* LaunchScreen.storyboard */,
+				00B4F2A82123BE7B00A70C0B /* Main.storyboard */,
+				00B4F2AA2123BE7B00A70C0B /* main.m */,
+				00B4F2AC2123BE7B00A70C0B /* Info.plist */,
+				00B4F2AD2123BE7B00A70C0B /* ViewController.h */,
+				00B4F2A52123BE7B00A70C0B /* ViewController.m */,
+				00B4F2AE2123BE7B00A70C0B /* Src */,
 			);
-			path = FTScaleSliderView;
+			path = FKScaleSliderView;
 			sourceTree = "<group>";
 		};
-		0020935E1FE26A52004AD3C0 /* Src */ = {
+		00B4F2AE2123BE7B00A70C0B /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				0020935F1FE26A76004AD3C0 /* FTScaleSliderView.h */,
-				002093601FE26A76004AD3C0 /* FTScaleSliderView.m */,
+				00B4F2B02123BE7B00A70C0B /* FKScaleSliderView.h */,
+				00B4F2AF2123BE7B00A70C0B /* FKScaleSliderView.m */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		002093441FE269A2004AD3C0 /* FTScaleSliderView */ = {
+		002093441FE269A2004AD3C0 /* FKScaleSliderView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0020935B1FE269A2004AD3C0 /* Build configuration list for PBXNativeTarget "FTScaleSliderView" */;
+			buildConfigurationList = 0020935B1FE269A2004AD3C0 /* Build configuration list for PBXNativeTarget "FKScaleSliderView" */;
 			buildPhases = (
 				002093411FE269A2004AD3C0 /* Sources */,
 				002093421FE269A2004AD3C0 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = FTScaleSliderView;
+			name = FKScaleSliderView;
 			productName = FTScaleSliderView;
-			productReference = 002093451FE269A2004AD3C0 /* FTScaleSliderView.app */;
+			productReference = 002093451FE269A2004AD3C0 /* FKScaleSliderView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 		0020933D1FE269A2004AD3C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = FinderTiwk;
 				TargetAttributes = {
 					002093441FE269A2004AD3C0 = {
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 002093401FE269A2004AD3C0 /* Build configuration list for PBXProject "FTScaleSliderView" */;
+			buildConfigurationList = 002093401FE269A2004AD3C0 /* Build configuration list for PBXProject "FKScaleSliderView" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				002093441FE269A2004AD3C0 /* FTScaleSliderView */,
+				002093441FE269A2004AD3C0 /* FKScaleSliderView */,
 			);
 		};
 /* End PBXProject section */
@@ -142,9 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002093551FE269A2004AD3C0 /* LaunchScreen.storyboard in Resources */,
-				002093521FE269A2004AD3C0 /* Assets.xcassets in Resources */,
-				002093501FE269A2004AD3C0 /* Main.storyboard in Resources */,
+				00B4F2B42123BE7B00A70C0B /* Main.storyboard in Resources */,
+				00B4F2B12123BE7B00A70C0B /* Assets.xcassets in Resources */,
+				00B4F2B32123BE7B00A70C0B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,30 +155,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0020934D1FE269A2004AD3C0 /* ViewController.m in Sources */,
-				002093581FE269A2004AD3C0 /* main.m in Sources */,
-				002093611FE26A76004AD3C0 /* FTScaleSliderView.m in Sources */,
-				0020934A1FE269A2004AD3C0 /* AppDelegate.m in Sources */,
+				00B4F2B52123BE7B00A70C0B /* main.m in Sources */,
+				00B4F2B82123BE7B00A70C0B /* FKScaleSliderView.m in Sources */,
+				00B4F2B22123BE7B00A70C0B /* ViewController.m in Sources */,
+				00B4F2B62123BE7B00A70C0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0020934E1FE269A2004AD3C0 /* Main.storyboard */ = {
+		00B4F2A62123BE7B00A70C0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0020934F1FE269A2004AD3C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		002093531FE269A2004AD3C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				002093541FE269A2004AD3C0 /* Base */,
+				00B4F2A72123BE7B00A70C0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00B4F2A82123BE7B00A70C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B4F2A92123BE7B00A70C0B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -198,6 +198,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -205,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -253,6 +255,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -260,6 +263,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -294,9 +298,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FTScaleSliderView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FKScaleSliderView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FTScaleSliderView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKScaleSliderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,9 +313,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FTScaleSliderView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FKScaleSliderView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FTScaleSliderView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKScaleSliderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		002093401FE269A2004AD3C0 /* Build configuration list for PBXProject "FTScaleSliderView" */ = {
+		002093401FE269A2004AD3C0 /* Build configuration list for PBXProject "FKScaleSliderView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				002093591FE269A2004AD3C0 /* Debug */,
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0020935B1FE269A2004AD3C0 /* Build configuration list for PBXNativeTarget "FTScaleSliderView" */ = {
+		0020935B1FE269A2004AD3C0 /* Build configuration list for PBXNativeTarget "FKScaleSliderView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0020935C1FE269A2004AD3C0 /* Debug */,

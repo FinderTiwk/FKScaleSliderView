@@ -1,18 +1,18 @@
 //
-//  FTScaleSliderView.m
-//  FTScaleSliderView
+//  FKScaleSliderView.m
+//  FKScaleSliderView
 //
 //  Created by FinderTiwk on 14/12/2017.
 //  Copyright © 2017 FinderTiwk. All rights reserved.
 //
 
-#import "FTScaleSliderView.h"
+#import "FKScaleSliderView.h"
 
-@interface FTScaleSliderView()
+@interface FKScaleSliderView()
 @property (nonatomic,strong,readwrite) UISlider *slider;
 @end
 
-@implementation FTScaleSliderView
+@implementation FKScaleSliderView
 
 #pragma mark - Construction
 - (instancetype)initWithFrame:(CGRect)frame{
@@ -51,7 +51,7 @@
     
     CGFloat titleY  = 0;
     CGFloat sliderY = hasTitle?titleHeight:0.f;
-    if (self.titlePosition == FTScaleSliderTitlePosition_Bottom) {
+    if (self.titlePosition == FKScaleSliderTitlePositionBottom) {
         titleY = size.height - titleHeight;
         sliderY = 0;
     }
@@ -85,7 +85,7 @@
     CGFloat cursorHeigh = thumbSize.height * 0.4;
     CGFloat startX = padding;
     CGFloat startY = sliderY + thumbRect.origin.y + thumbSize.height/2 - cursorHeigh/2;
-    if (self.style == FTScaleSliderStyle_Bottom) {
+    if (self.style == FKScaleSliderStyleBottom) {
         startY =  sliderY + thumbRect.origin.y + thumbSize.height/2;
     }
     
@@ -116,14 +116,14 @@
             
             //画刻度
             [bezierPath moveToPoint:CGPointMake(startX, startY)];
-            if (self.style == FTScaleSliderStyle_Full) {
+            if (self.style == FKScaleSliderStyleFull) {
                 [bezierPath addLineToPoint:CGPointMake(startX, startY + cursorHeigh)];
             }else{
                 [bezierPath addLineToPoint:CGPointMake(startX, startY + cursorHeigh/2)];
             }
         }else{
             CGFloat tmpStartY = startY + cursorHeigh/2;
-            if (self.style == FTScaleSliderStyle_Bottom) {
+            if (self.style == FKScaleSliderStyleBottom) {
                 tmpStartY = startY;
             }
             //画连接线
